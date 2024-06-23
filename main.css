@@ -1,0 +1,26 @@
+body {
+    font-family: "Lato";
+  }
+
+.carousel-item {
+    overflow: hidden; /* This hides any content overflowing the container */
+    height: 300px; /* Set the carousel height */
+  }
+
+.carousel-inner > .item {
+    position: relative; /* Make the item container relative for positioning */
+  }
+  
+.carousel-caption {
+    position: absolute; /* Make the caption absolutely positioned within the item */
+    top: 6%;
+    transform: translateY(-6%); /* Vertically center the caption */
+    text-align: right; /* Align captions to the right */
+  }
+
+/* Define a media query for screens smaller than 768px (typical for mobile devices) */
+@media (max-width: 768px) {
+  .carousel-item {
+    height: 190px; /* Adjust the height as needed for mobile */
+  }
+}

@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="en">
+<!-- Bootstrap quick-start code from https://getbootstrap.com/docs/5.3/getting-started/introduction/ -->
+    
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weliky Lab</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="http://code.jquery.com/jquery-1.11.3.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <!--HTML code for the font begin-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <!--HTML code for the font end-->
+    <link rel="stylesheet" type="text/css" href="/main.css">
+    <style>
+      .fill {
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+      }
+      .customize-color {
+        background: #F8E2BA !important;
+      }
+    </style>
+  </head>
+    
+  <body>
+     <!--Header image begin-->
+    <div style="height:200px" class="row">
+    <div 
+      class="fill !important" 
+      style="background-image: url('stockphoto.png');">
+    </div>
+    <!--Header image end-->
+    </div>
+
+    <!--Nav bar begin-->
+    <!-- pale light green: "#8B9D83;"> -->
+    <nav class="navbar navbar-expand-lg" data-bs-theme="dark" style="background-color: #4F1503;">
+      <div class="container-fluid">
+        <a class="navbar-brand text-light" href="#">Weliky Lab</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" class="text-white" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-white" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="publications.html">Publications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="research.html">Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="team.html">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+    </nav>
+    <!--Nav bar end-->
+
+    <!--Main container begin-->
+    <div class="container">
+
+      <!--Header text begin-->
+      <div class="row p-5">
+        <h2 class="text-left">Weliky Lab - Research</h2>
+        <br>
+        <br>
+        <br>
+        <p>
+          The Weliky group is interested in mechanistic and structural understanding of biochemical systems. We are
+          primarily experimentalists and typically prepare our own samples and do our own measurements and data
+          analysis.
+        </p>
+      </div>
+      <!--Header text end-->
+
+      <!--Research text begin-->
+      <div class="container text-left">
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-10">
+            <p style="text-align: left;">
+              <h3>Protein Expression and Purification and Biophysical Characterization</h3>
+              <br>
+              <p>On the sample preparation side, we do protein expression and purification as well as characterization using
+              methods like SDS-PAGE, mass spectrometry, circular dichroism spectroscopy, and size-exclusion
+              chromatography. For protein purification, we are typically developing the more “old-school” differential solubility
+              approaches while also using the more “modern” chromatographic approaches.
+              </p>
+              <p>
+                <i>
+                  Click the thumbnails to see more:
+                </i>
+              </p>
+              <br>
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 p-2">
+                  <div class="thumbnail-container">
+                    <img src="images/thumbnails/t1.png" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal1">
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 p-2">
+                  <div class="thumbnail-container">
+                    <img src="images/thumbnails/t2.png" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal2">
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 p-2">
+                  <!--Nothing here-->
+                </div>
+              </div>
+              <!--Modals begin-->
+              <!-- Modal 1 begin-->
+              <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-fullscreen">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Protein Preparation and Folding</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="images/research2/Picture1.jpg" alt="Your image description" style="object-fit: stretch;">
+                    </div>
+                    <div class="modal-footer justify-content-between">
+                      <a href="https://www2.chemistry.msu.edu/faculty/welikygrp/Ranaweeera_Biochem_2018.pdf" target="_blank" rel="noopener noreferrer">
+                        From A. Ranaweera et al. Biochemistry (2018) 57, 5480-5493
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--Modal 1 end-->
+              <!--Modal 2 begin-->
+              <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-fullscreen">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Temperature-series CD spectra</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="images/research2/Picture2.gif" alt="Your image description" style="object-fit: stretch;">
+                    </div>
+                    <div class="modal-footer justify-content-between">
+                      <a href="https://www2.chemistry.msu.edu/faculty/welikygrp/Ranaweeera_Biochem_2018.pdf" target="_blank" rel="noopener noreferrer">
+                        From A. Ranaweera et al. Biochemistry (2018) 57, 5480-5493
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--Modal 2 end-->
+              <!--Modals end-->
+              <br>
+              <br>
+              <br>
+
+              <h3>NMR Methods and Approaches</h3>
+              <br>
+              <p>We do significant nuclear magnetic resonance (NMR) spectroscopy. Some NMR projects have the goal of
+              structure determination with near-atomic resolution. Other projects using NMR to address questions like
+              protein location in a membrane or the probability of lipid chain protrusion out of a membrane.
+              </p>
+              <p>
+                <i>
+                  Click the thumbnails to see more:
+                </i>
+              </p>
+              <br>
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 p-2">
+                  <div class="thumbnail-container">
+                    <img src="images/thumbnails/t3.png" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal3">
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 p-2">
+                  <div class="thumbnail-container">
+                    <img src="images/thumbnails/t4.png" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal4">
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 p-2">
+                  <!--Nothing here-->
+                </div>
+              </div>
+              <!--Modals begin-->
+              <!-- Modal 3 begin-->
+              <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-fullscreen">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Membrane Location of Proteins by NMR-Detected Proximity between Protein and Lipid</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="images/research2/Picture3.png" alt="Your image description" style="object-fit: stretch;">
+                    </div>
+                    <div class="modal-footer justify-content-between">
+                      <a href="https://www2.chemistry.msu.edu/faculty/welikygrp/Jia_JMR_2015.pdf" target="_blank" rel="noopener noreferrer">
+                        From L. Jia et al. J. Magn. Reson. (2015) 253, 154-165
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--Modal 3 end-->
+              <!--Modal 4 begin-->
+              <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-fullscreen">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Semi-quantitative models for deep and shallow HFP membrane insertion that respectively correspond to major and minor HFP populations.</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="images/research2/Picture4.png" alt="Your image description" style="object-fit: stretch;">
+                    </div>
+                    <div class="modal-footer justify-content-between">
+                      <a href="https://www2.chemistry.msu.edu/faculty/welikygrp/Jia_JMR_2015.pdf" target="_blank" rel="noopener noreferrer">
+                        From L. Jia et al. J. Magn. Reson. (2015) 253, 154-165
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--Modal 4 end-->
+              <!--Modals end-->
+              <br>
+              <br>
+
+              <h3>Protein-induced Changes in Lipid Structure by NMR Paramagnetic Relaxation Enhancement</h3>
+              <p>
+              </p>
+              <p>
+                <i>
+                  Click the thumbnails to see more:
+                </i>
+              </p>
+              <br>
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 p-2">
+                  <div class="thumbnail-container">
+                    <img src="images/thumbnails/t5.png" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal5">
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 p-2">
+                  <div class="thumbnail-container">
+                    <img src="images/thumbnails/t6.png" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal6">
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 p-2">
+                  <div class="thumbnail-container">
+                    <img src="images/thumbnails/t7.png" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal7">
+                  </div>
+                </div>
+              </div>
+              <!--Modals begin-->
+              <!-- Modal 5 begin-->
+              <div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-fullscreen">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Representative picture of lipid acyl chain protrusion near a Fp</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="images/research2/Picture5.png" alt="Your image description" style="object-fit: stretch;">
+                    </div>
+                    <div class="modal-footer justify-content-between">
+                      <a href="https://www2.chemistry.msu.edu/faculty/welikygrp/Zhang_BiophysChem_2023.pdf" target="_blank" rel="noopener noreferrer">
+                        From Y. Zhang et al. Biophys. Chem. (2023) 299, 107028
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--Modal 5 end-->
+              <!--Modal 6 begin-->
+              <div class="modal fade" id="modal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-fullscreen">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">The 2,2′ spectral signals vs. Δτ (increment in dephasing time) of samples containing (a) Lipid, (b) Lipid +Mn2+, (c) Lipid +Fp, and (d) Lipid +Fp +Mn2+, with 0.5% Mn2+and 3% Fp that are based on (mole Mn2+or Fp)/(mole lipid) ×100 </h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="images/research2/Picture6.png" alt="Your image description" style="object-fit: stretch;">
+                    </div>
+                    <div class="modal-footer justify-content-between">
+                      <a href="https://www2.chemistry.msu.edu/faculty/welikygrp/Zhang_BiophysChem_2023.pdf" target="_blank" rel="noopener noreferrer">
+                        From Y. Zhang et al. Biophys. Chem. (2023) 299, 107028
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--Modal 6 end-->
+              <!--Modal 7 begin-->
+              <div class="modal fade" id="modal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-fullscreen">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Bar plot of the Γ2’s, i.e. the differences between the R2’s for samples with vs. without Mn2+</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="images/research2/Picture7.png" alt="Your image description" style="object-fit: stretch;">
+                    </div>
+                    <div class="modal-footer justify-content-between">
+                      <a href="https://www2.chemistry.msu.edu/faculty/welikygrp/Zhang_BiophysChem_2023.pdf" target="_blank" rel="noopener noreferrer">
+                        From Y. Zhang et al. Biophys. Chem. (2023) 299, 107028
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--Modal 7 end-->
+              <!--Modals end-->
+              <br>
+              <br>
+
+              <h3>Enveloped virus spike proteins</h3>
+              <p>
+                Many viruses important in disease are enveloped by a membrane obtained during budding from an infected
+                host cell. Infection of a new cell requires joining (“fusing”) the viral and target membranes to enable viral
+                replication in the cell. Fusion has substantial barriers that are reduced by one of the subunits of the viral protein
+                spikes. Our work is focused on determining the mechanisms by which these barriers are reduced by the spike
+                proteins.
+              </p>
+              <p>
+                <i>
+                  Click the thumbnails to see more:
+                </i>
+              </p>
+              <br>
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 p-2">
+                  <div class="thumbnail-container">
+                    <img src="images/thumbnails/t8.png" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal8">
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 p-2">
+                  <div class="thumbnail-container">
+                    <img src="images/thumbnails/t9.png" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal9">
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 p-2">
+                  <div class="thumbnail-container">
+                    <img src="images/thumbnails/t10.png" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal10">
+                  </div>
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 p-2">
+                  <div class="thumbnail-container">
+                    <img src="images/thumbnails/t11.png" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal11">
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 p-2">
+                  <div class="thumbnail-container">
+                    <img src="images/thumbnails/t12.png" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal12">
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 p-2">
+                  <div class="thumbnail-container">
+                    <img src="images/thumbnails/t13.png" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal13">
+                  </div>
+                </div>
+              </div>
+              <!--Modals begin-->
+              <!-- Modal 8 begin-->
+              <div class="modal fade" id="modal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-fullscreen">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Pictorial representation of a common membrane fusion model that includes (a) initial close apposition of the viral and target membranes; (b) stalk formed from the outer leaflets of the two membranes; (c) hemifusion diaphragm that is contiguous with the inner leaflets of the two membranes; and (d) pore formation. </h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="images/research2/Picture8.png" alt="Your image description" style="object-fit: stretch;">
+                    </div>
+                    <div class="modal-footer justify-content-between">
+                      <a href="https://www2.chemistry.msu.edu/faculty/welikygrp/Zhang_BiophysChem_2023.pdf" target="_blank" rel="noopener noreferrer">
+                        From Y. Zhang et al. Biophys. Chem. (2023) 299, 107028
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--Modal 8 end-->
+              <!--Modal 9 begin-->
+              <div class="modal fade" id="modal9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-fullscreen">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">HIV gp41 Fusion Peptide Structure in Membrane from NMR</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="images/research2/Picture9.jpg" alt="Your image description" style="object-fit: stretch;">
+                    </div>
+                    <div class="modal-footer justify-content-between">
+                      <a href="https://www2.chemistry.msu.edu/faculty/welikygrp/Qiang_JACS_2008.pdf" target="_blank" rel="noopener noreferrer">
+                        Based on W. Qiang et al. J. Am. Chem. Soc. (2008) 130, 5459-5471
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--Modal 9 end-->
+              <!-- Modal 10 begin-->
+              <div class="modal fade" id="modal10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-fullscreen">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">fpCTDQBU (ΔS/S0)f β versus dephasing time τ for samples containing FP-Hairpin 13CO</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="images/research2/Picture10.jpg" alt="Your image description" style="object-fit: stretch;">
+                    </div>
+                    <div class="modal-footer justify-content-between">
+                      <a href="https://www2.chemistry.msu.edu/faculty/welikygrp/Sackett_JMB_2014.pdf" target="_blank" rel="noopener noreferrer">
+                        From K. Sackett et al. J. Mol. Biol. (2014) 426, 1077-1094
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--Modal 10 end-->
+              <!--Modal 11 begin-->
+              <div class="modal fade" id="modal11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-fullscreen">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Schematic of membrane-associated FP-Hairpin at pH 7</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="images/research2/Picture11.jpg" alt="Your image description" style="object-fit: stretch;">
+                    </div>
+                    <div class="modal-footer justify-content-between">
+                      <a href="https://www2.chemistry.msu.edu/faculty/welikygrp/Sackett_JMB_2014.pdf" target="_blank" rel="noopener noreferrer">
+                        From K. Sackett et al. J. Mol. Biol. (2014) 426, 1077-1094
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--Modal 11 end-->
+              <!-- Modal 12 begin-->
+              <div class="modal fade" id="modal12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-fullscreen">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Influenza Hemagglutinin Fusion Peptide Structure in Membrane from NMR</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="images/research2/Picture12.gif" alt="Your image description" style="object-fit: stretch;">
+                    </div>
+                    <div class="modal-footer justify-content-between">
+                      <a href="https://www2.chemistry.msu.edu/faculty/welikygrp/Ghosh_JACS_2015.pdf" target="_blank" rel="noopener noreferrer">
+                        From U. Ghosh et al. J. Am. Chem. Soc. (2015) 137, 7458-7461
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--Modal 12 end-->
+              <!--Modal 13 begin-->
+              <div class="modal fade" id="modal13" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-fullscreen">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Influenza Hemagglutinin Structural Models from Hydrogen/Deuterium Exchange Mass Spectrometry.</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="images/research2/Picture13.jpg" alt="Your image description" style="object-fit: stretch;">
+                    </div>
+                    <div class="modal-footer justify-content-between">
+                      <a href="https://www2.chemistry.msu.edu/faculty/welikygrp/Ranaweera_Biochem_2019.pdf" target="_blank" rel="noopener noreferrer">
+                        From A. Ranaweera et al. Biochemistry (2019) 58, 2432-2446
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--Modal 13 end-->
+              <!--Modals end-->
+              <br>
+              <br>
+
+              <h3>Proteins in Bacterial Inclusion Bodies</h3>
+              <p>
+                With genetic manipulation, bacteria can be induced to synthesize any protein sequence. Typically most of the
+                synthesized protein is aggregated as an “inclusion body”, a solid object in the bacterial cytoplasm. We are
+                doing NMR and other measurements to understand the extent to which the recombinant protein adopts native
+                structure in an inclusion body and the intermolecular interactions that underlie the aggregation.
+              </p>
+              <p>
+                <i>
+                  Click the thumbnail to see more:
+                </i>
+              </p>
+              <br>
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 p-2">
+                  <div class="thumbnail-container">
+                    <img src="images/thumbnails/t14.png" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal14">
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 p-2">
+                  <!--Nothing here-->
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 p-2">
+                  <!--Nothing here-->
+                </div>
+              </div>
+              <!--Modals begin-->
+              <!-- Modal 14 begin-->
+              <div class="modal fade" id="modal14" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-fullscreen">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Electron Microscopy of Bacterial Cells, un-induced (left) and induced (right).</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="images/research2/Picture14.jpg" alt="Your image description" style="object-fit: stretch;">
+                    </div>
+                    <div class="modal-footer justify-content-between">
+                      <a href="https://cen.acs.org/articles/86/i41/Protein-Aggregates-Probed.html?ref=search_results" target="_blank" rel="noopener noreferrer">
+                        Protein Aggregates Probed
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--Modal 14 end-->
+              <!--Modals end-->
+              <br>
+              <br>
+
+
+          </div>
+          <div class="col-md-1"></div>
+        </div>
+      </div>
+      <!--Research text end-->
+  
+    </div>
+    <!--Main container end-->
+
+    <!--Footer begin-->
+    <footer class="customize-color mt-5 mb-0 p-5 text-center">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 p-2">
+            <img src="msu-wordmark.png">
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 p-2">
+            <p>&copy; David Weliky 2024</p>
+            <p><i>weliky@chemistry.msu.edu</i></p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 p-2">
+            <i>Website design by <a href="https://www.linkedin.com/in/lauren-solberg/">Lauren Solberg</a></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--Footer end-->
+  </body>
+</html>
